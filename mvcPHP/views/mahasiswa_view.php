@@ -15,9 +15,7 @@
     </div>
     <?php foreach ($data as $row) : ?>
       <ul class="list-group mb-3">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <?php echo $row['nama']; ?>
-          <a href="index.php?id=<?= $row['id']; ?>" class="btn btn-primary btn-sm">Detail</a>
+        <li class="list-group-item d-flex justify-content-between align-items-center"><a href="index.php?id=<?= $row['id']; ?>" class="btn btn-primary btn-sm"><?php echo $row['nama']; ?></a>
         </li>
       </ul>
     <?php endforeach; ?>
