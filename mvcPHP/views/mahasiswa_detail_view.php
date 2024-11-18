@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container my-5">
-    <h3 class="mb-4 text-center">Daftar Mahasiswa</h3>
+    <h3 class="mb-4 text-center">Detail Data Mahasiswa</h3>
     <div class="table-responsive">
     <table class="table table-striped table-bordered width-50%">
       <thead class="table-primary">
